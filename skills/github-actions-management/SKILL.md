@@ -9,17 +9,17 @@ Use this skill when you need to check CI/CD status, read workflow logs, re-run f
 
 ## Available Tools
 
-| Tool | What it does |
-|------|-------------|
-| `list_workflows` | List all workflow files in a repository |
-| `list_runs` | List workflow runs (filter by workflow or status) |
-| `get_run` | Get details of a specific workflow run |
-| `get_run_logs` | Get the logs URL for a run (zip download) |
-| `rerun_workflow` | Re-run an entire workflow run |
-| `rerun_failed_jobs` | Re-run only the failed jobs from a run |
-| `cancel_run` | Cancel an in-progress or queued run |
-| `list_artifacts` | List artifacts produced by a workflow run |
-| `trigger_workflow` | Trigger a workflow via `workflow_dispatch` |
+| Tool                | What it does                                      |
+| ------------------- | ------------------------------------------------- |
+| `list_workflows`    | List all workflow files in a repository           |
+| `list_runs`         | List workflow runs (filter by workflow or status) |
+| `get_run`           | Get details of a specific workflow run            |
+| `get_run_logs`      | Get the logs URL for a run (zip download)         |
+| `rerun_workflow`    | Re-run an entire workflow run                     |
+| `rerun_failed_jobs` | Re-run only the failed jobs from a run            |
+| `cancel_run`        | Cancel an in-progress or queued run               |
+| `list_artifacts`    | List artifacts produced by a workflow run         |
+| `trigger_workflow`  | Trigger a workflow via `workflow_dispatch`        |
 
 ## Workflow
 
