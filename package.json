@@ -1,7 +1,7 @@
 {
   "name": "mcp-server-github-actions",
   "version": "1.0.0",
-  "description": "MCP server for GitHub Actions — view workflow runs, read logs, re-run failed jobs, and manage CI/CD from your IDE",
+  "description": "MCP server for GitHub Actions \u2014 view workflow runs, read logs, re-run failed jobs, and manage CI/CD from your IDE",
   "type": "module",
   "bin": {
     "mcp-server-github-actions": "./dist/index.js"
@@ -62,7 +62,12 @@
     "vitest": "^3.2.0"
   },
   "lint-staged": {
-    "*.{ts,tsx,js}": "eslint --fix",
-    "*.{json,md,yml,yaml}": "prettier --write"
+    "*.{ts,tsx,js}": [
+      "eslint --fix",
+      "prettier --write"
+    ],
+    "*.{json,md,yml,yaml}": [
+      "prettier --write"
+    ]
   }
 }
