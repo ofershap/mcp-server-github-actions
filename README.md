@@ -18,6 +18,10 @@ npx mcp-server-github-actions
 
 <sub>Demo built with <a href="https://github.com/ofershap/remotion-readme-kit">remotion-readme-kit</a></sub>
 
+<a href="https://glama.ai/mcp/servers/ofershap/mcp-server-github-actions">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/ofershap/mcp-server-github-actions/badge" alt="mcp-server-github-actions MCP server" />
+</a>
+
 ## Why
 
 GitHub's official MCP server covers repos, issues, and PRs, but it doesn't touch Actions. That means when your CI fails, you still have to open a browser, find the run, click through to the logs, and figure out what went wrong. This server fills that gap. You can ask your assistant "why did the last CI run fail?" or "re-run the failed jobs" and get answers right where you're working. It uses the same GitHub REST API you'd use manually, just without the context switching.
