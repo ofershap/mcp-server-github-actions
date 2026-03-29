@@ -36,6 +36,10 @@ GitHub's official MCP server covers repos, issues, and PRs, but it doesn't touch
 | `list_artifacts`    | List artifacts produced by a workflow run                    |
 | `trigger_workflow`  | Trigger a workflow via `workflow_dispatch`                   |
 
+## Hosted deployment
+
+A hosted deployment is available on [Fronteir AI](https://fronteir.ai/mcp/ofershap-mcp-server-github-actions).
+
 ## Quick Start
 
 ### Cursor
