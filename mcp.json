@@ -1,0 +1,16 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "github-actions": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-server-github-actions"
+      ],
+      "env": {
+        "GITHUB_TOKEN": ""
+      }
+    }
+  }
+}
