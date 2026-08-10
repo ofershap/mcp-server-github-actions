@@ -2,7 +2,7 @@
   "name": "mcp-server-github-actions",
   "mcpName": "io.github.ofershap/github-actions",
   "version": "1.0.1",
-  "description": "MCP server for GitHub Actions \u2014 view workflow runs, read logs, re-run failed jobs, and manage CI/CD from your IDE",
+  "description": "MCP server for GitHub Actions — view workflow runs, read logs, re-run failed jobs, and manage CI/CD from your IDE",
   "type": "module",
   "bin": {
     "mcp-server-github-actions": "./dist/index.js"

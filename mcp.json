@@ -4,10 +4,7 @@
     "github-actions": {
       "type": "stdio",
       "command": "npx",
-      "args": [
-        "-y",
-        "mcp-server-github-actions"
-      ],
+      "args": ["-y", "mcp-server-github-actions"],
       "env": {
         "GITHUB_TOKEN": ""
       }
